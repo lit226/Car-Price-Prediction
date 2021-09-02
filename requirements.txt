@@ -1,3 +1,4 @@
+
 argon2-cffi  
 async-generator  
 attrs  
@@ -6,6 +7,8 @@ beautifulsoup4==4.9.3
  
 bleach  
 bs4==0.0.1
+ 
+cargo==0.3
  
 certifi==2021.5.30
  
@@ -73,8 +76,6 @@ pyparsing
 pyrsistent  
 python-dateutil  
 pytz==2021.1
- 
-
  
 pywinpty  
 pyzmq==20.0.0
