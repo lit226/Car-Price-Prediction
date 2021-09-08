@@ -23,13 +23,13 @@ def predict():
         Owner=int(request.form['Owner'])
         Fuel_Type_Petrol=request.form['Fuel_Type']
         if(Fuel_Type_Petrol=='Petrol'):
-               # Fuel_Type_1 =1
+             
                 Fuel_Type = 2
         elif(Fuel_Type_Petrol == 'Diesel'):
-           # Fuel_Type_1 = 0
+         
             Fuel_Type = 1
         else:
-            #Fuel_Type_1 =0
+            
             Fuel_Type = 0
         Year=2020-Year
         Seller_Type_Individual=request.form['Seller_Type']
